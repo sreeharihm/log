@@ -1,0 +1,5 @@
+{
+    "appService.preDeployTask": "publish-release",
+    "appService.deploySubpath": "bin\\Release\\netcoreapp3.1\\publish",
+    "appService.defaultWebAppToDeploy": "/subscriptions/252be796-d248-4df7-a7a1-35d075ecf369/resourceGroups/iot-log/providers/Microsoft.Web/sites/iotlog"
+}

@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/252be796-d248-4df7-a7a1-35d075ecf369/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/iotlogfd",
+    "appService.deploySubpath": "."
+}

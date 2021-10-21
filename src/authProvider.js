@@ -3,7 +3,7 @@
 const authPro= {
     // called when the user attempts to log in
     login: ({ username, password }) => {
-      const request = new Request('http://localhost:60986/api/log/authenticate', {
+      const request = new Request('https://iotlog.azurewebsites.net/api/log/authenticate', {
       method: 'POST',
       body: JSON.stringify({username, password}),
       headers: new Headers({'Content-Type': 'application/json'}),

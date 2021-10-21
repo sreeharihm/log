@@ -5,7 +5,7 @@ import myDataProvider from './dataProvider';
 import Dashboard from './Dashboard';
 import { UserList } from './users';
 
-const dataProvider = myDataProvider('http://localhost:60986/api');
+const dataProvider = myDataProvider('https://iotlog.azurewebsites.net/api');
 const App = () => (
       <Admin dashboard={Dashboard} dataProvider={dataProvider} authProvider={authProvider}>
         <Resource name="log" list={UserList} />

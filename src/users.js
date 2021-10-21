@@ -1,8 +1,8 @@
 import * as React from "react";
-import {  TextInput, List, Datagrid, TextField } from 'react-admin';
+import {  DateInput, List, Datagrid, TextField } from 'react-admin';
 
 const postFilters = [
-    <TextInput source="q" label="Search" alwaysOn />
+    <DateInput source="q" label="Search" alwaysOn />
 ];
 
 export const UserList = props => (
